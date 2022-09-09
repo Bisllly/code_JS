@@ -12,3 +12,11 @@
 // let total = 0
 // start from the first number (forEach)
 // keep the previous added number
+
+
+//8-2:
+// Click button "up"
+// div increase by 1
+//=>> (click) - (count = count + 1) - 
+
+//thay so trong counter tuong duong ket qua cua count 

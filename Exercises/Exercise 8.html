@@ -16,6 +16,28 @@
         </script>
 
         <h5>2.</h5>
+        <div id="counter">0</div>
+
+        <button onclick="countUp()">Up</button>
+        <button onclick="countDown()">Down</button>
+
+        <script>
+            let count = 0;
+            function updateCount() {
+                let counter = document.getElementById('counter');
+                counter.innerText = count;
+            }
+
+            function countUp() {
+                count = count + 1;
+                updateCount();
+            }
+
+            function countDown() {
+                count = count - 1;
+                updateCount();
+            }
+        </script>
 
     </body>
 </html>
