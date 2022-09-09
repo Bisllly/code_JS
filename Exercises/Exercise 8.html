@@ -39,5 +39,19 @@
             }
         </script>
 
+        <h5>4.</h5>
+        <input type="text" id="todo-title" />
+        <button onclick="displayTitle()">Display Title</button>
+<script>
+    function displayTitle() {
+        let todoTitle = document.getElementById('todo-title');
+        let title = todoTitle.value;
+
+        let div = document.createElement('div');
+        div.innerText = title;
+        document.body.appendChild(div);
+    }
+</script>
+
     </body>
 </html>
