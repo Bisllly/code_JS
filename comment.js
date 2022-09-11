@@ -20,3 +20,30 @@
 //=>> (click) - (count = count + 1) - 
 
 //thay so trong counter tuong duong ket qua cua count 
+/*
+Exercise 9.html
+---1. 
+- đưa đích của bài code vào cái div mang id='cart' đã tạo ban đầu
+
+- tạo function addToCart (food) {
+    tạo div cho riêng từng food chuẩn bị được add vào (div cartItem)
+    
+    cho innerText của div cartItem trở thành biến food 
+    (biến food tương ứng với tên của button)
+
+    cho div cartItem xuất hiện trong div cart
+
+- tạo function clearCart(): 
+    dùng .innerHTML để wipe toàn bộ html về ' ' 
+}
+
+----2.
+- gán biến value cho id='value'
+(const measurement = document.getElementById('measurement');)
+- chuyển string trong textbox thành number
+(const value = measurement.value;
+ const convertedValue = +value)
+- đổi đơn vị
+ + đổi sang cm: value*2.54
+ + đổi sang inch: value/2.54
+*/
