@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Exercise 9</title>
+    </head>
+    <body>
+        <h4>1.</h4>
+        <button onclick="addToCart('apple')">apple</button>
+        <button onclick="addToCart('tomato')">tomato</button>
+        <button onclick="addToCart('eggs')">eggs</button>
+        <button onclick="clearCart()">clear</button>
+
+        <div id="cart"></div>
+
+        <script>
+            const cart = document.getElementById('cart')
+
+            function addToCart(food) {
+                const cartItem = document.createElement('div');
+                cartItem.innerText = food;
+                cart.appendChild(cartItem);
+            }
+            function clearCart() {
+                cart.innerHTML = '';
+            }
+        </script>
+
+        <h4>2.</h4>
+        <input id='measurement'/> 
+        <button onclick="convertToCm()">Convert to cm</button>
+        <button onclick="convertToInch()">Convert to inch</button>
+
+        <script>
+            const measurement = document.getElementById('measurement');
+            
+
+            function convertToCm() {
+                const value = measurement.value;
+                const convertedValue = +value * 2.54;
+
+                const result = document.createElement('div');
+                result.innerText = convertedValue;
+                document.body.appendChild(result);
+            }
+
+            function convertToInch() {
+                const value = measurement.value;
+                const convertedValue = +value / 2.54;
+
+                const result = document.createElement('div');
+                result.innerText = convertedValue;
+                document.body.appendChild(result);
+            }
+        </script>
+    </body>
+</html>
