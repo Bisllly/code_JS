@@ -50,10 +50,9 @@ Exercise 9.html
 
 -----Exercise 10::::
 ...1. 
-
-priceApple*quantityApple
--cartArray.name
-priceOrange*quantityOrange
-
-price1*quantity1 + price2*quantity2
+- cho total bang 0
+- cart Array la tong hop cua cac Object
+- item la moi mot object
+- target price cua item bang item.price, 
+item.quality
 */
