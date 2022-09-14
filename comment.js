@@ -46,4 +46,14 @@ Exercise 9.html
 - đổi đơn vị
  + đổi sang cm: value*2.54
  + đổi sang inch: value/2.54
+
+
+-----Exercise 10::::
+...1. 
+
+priceApple*quantityApple
+-cartArray.name
+priceOrange*quantityOrange
+
+price1*quantity1 + price2*quantity2
 */
